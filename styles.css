@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');*
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #894cb4,#310041);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+main h1{
+    font-weight: 600;
+    position: relative;
+    padding: 0.4rem;
+}
+
+main h1::before{
+    content: '';
+    position:absolute;
+    height: 2px;
+    width: 155px;
+    bottom: 12px;
+    left: 8px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #894cb4,#310041);
+
+}
+
+main h2{
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.4rem;
+    position: relative;
+    margin-bottom: 14px;
+    margin-top: -21px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+
+.input-field input{
+    width: 100%;
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.input.field input::placeholder{
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-app{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(45deg, #894cb4,#310041);
+    box-shadow: 0.5px 1px 1px 1px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition: filter 0.2s;
+}
+
+.btn-app:hover{
+    letter-spacing: 0.4px;
+    background: linear-gradient(45deg, #310041,#894cb4);
+}
+
+.footer{
+    margin-top: 0.9rem;
+}
+
+.footer span{
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 0.8rem;
+}
+
+.footer .social-field{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.footer .social-field a i{
+    margin: 0 0.5rem;
+}
+
+.footer .social-field a{
+    text-decoration: none;
+    color: white;    
+}
+
+.footer .social-field.linkedin{
+    background: linear-gradient(to right, #1e3672, #468aca);
+    cursor: pointer;
+    box-shadow: 0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.footer .social-field.linkedin:hover{
+    letter-spacing: 0.4px;
+    background: linear-gradient(to right,#468aca ,#1e3672);
+}
+
+.footer .social-field.sobre{
+    background: linear-gradient(to right, #f8bf02cc, #f4f74c);
+    cursor: pointer;
+    box-shadow: 0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.footer .social-field.sobre:hover{
+    letter-spacing: 0.4px;
+    background: linear-gradient(to right,#f4f74c , #f8bf02cc);
+}
+
+.app {
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    margin: 32px auto;
+    border-radius: 8px;
+    background: white;
+}
+
+.app .content-form{
+    width: 100%;
+    padding: 15px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app form{
+    width: 100%;
+    max-width: 700px;
+}
+
+.app .content-list{
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .content-list ul{
+    display: grid;
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.app .content-list ul li{
+    padding: 40px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.app .content-list ul li strong{
+    display: block;
+    margin-bottom: 10px;
+    color: #41414d
+}
+
+.app .content-list ul li p{
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.app .content-list ul li a{
+    padding: 0px;
+    background: linear-gradient(45deg, #894cb4,#310041);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 2px;
+    transition: filter 0.2s;
+}
+
+.app .content-list ul li a:hover{
+    filter: brightness(110%)
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    h1{
+        float: none;
+        font-size: 1.95rem;
+    }
+    main h1::before{
+        width: 150px;
+    }
+}
