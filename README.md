@@ -1,12 +1,12 @@
-# Busca Repositorio por Romulo Valle
+# Searching Organizational Repositories by Romulo Valle
 
-### Descrição
+### Description
 
-Busca Repositório é um projeto desafio para o Estágio WEB Developer da Lett. O objetivo deste projeto é realizar uma busca de repositórios no GitHub fazendo com que o usuário tenha ainda a possibilidade de filtrar os resultados da pesquisa pelo repositório almejado. Além disso foi integrado uma página pessoal com algumas informações do criador e também um link de fácil acesso ao seu LinkedIn.
+This project is a filter to find some specific organizational repository. First you should select a organization to seach, then you will be able to choose any filter in your results. Don't forget to write the correct name of organization, if you write the wrong name or nothing you will not find any result. Moreover you could acess my personal portfolio and my linkedin at main page footer.
 
-OBS.: Este repositório refere-se aos arquivos finais do projeto.
+This repository will have some new commits by the end of this week.
 
-### Pré-requisitos
+### Requirements
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -16,6 +16,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 A seguinte ferramenta foi usada na construção do projeto:
 
+- [HTML](https://www.javascript.com/)
+- [CSS](https://www.javascript.com/)
 - [JavaScript](https://www.javascript.com/)
 
 ### Licença
